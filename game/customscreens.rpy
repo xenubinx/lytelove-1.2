@@ -71,8 +71,9 @@ screen textmiddle:
         draggable True
         droppable False
         drag_raise True
-        yalign 0.5
-        xalign 0.5
+        pos(1375,50)
+        drag_offscreen (200, 200)
+
         frame:
             background None
             
@@ -84,7 +85,7 @@ screen textmiddle:
                 $ track_name = track[1]
                 $ track_creator = track[2]
             
-                text "Now Playing..." yalign 0.08 xalign 0.01
+                text "{size=25}Now Playing...{/size}" yalign 0.095 xalign 0.005
                 text "[song_name] - [song_description]" yalign 0.125 xalign 0.065
                 
             else:
