@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/customscreens.rpy", line 75: 'xalgin' is not a keyword argument or valid child of the drag statement.
+    xalgin 0.5
+          ^
+
+Ren'Py Version: Ren'Py 8.1.1.23060707
+Thu Dec 28 07:55:13 2023
