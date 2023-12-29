@@ -9,10 +9,21 @@
 # u can see where i added the icon argument for positioning, and then u can see how theyre defined in the script
 #slay
 
+##########################
+#
+#     task bar stuff below! 
+#
+##########################
+
+#task bar set up for quick menu buttons
 
 
+##########################
+#
+#   Music player set up
+#
+##########################
 
-#####MUSIC PLAYER
 init python:
 
     # Step 1. Create a MusicRoom instance.
@@ -62,11 +73,18 @@ init python:
 
 #this is the actual part that makes the mp3 player show, however max had a stupid and was testing out how new screens worked and got too lazy to change it back to a normal name
 
-screen textmiddle:
 
+transform musicTrans:
+    on show:
+        alpha 0.0
+        ease 0.5 alpha 1.0
+    on hide:
+        ease 0.5 alpha 0.0
+    
+screen textmiddle:
     default music_is_playing = False #i know this seems contradictory but this is just the default states, plus i triggered music to start once we enter into game immediately
     default music_is_paused = False
-    
+        
     drag:
         draggable True
         droppable False
@@ -85,15 +103,23 @@ screen textmiddle:
                 $ track_name = track[1]
                 $ track_creator = track[2]
             
-                text "{size=25}Now Playing...{/size}" yalign 0.095 xalign 0.005
-                text "[song_name] - [song_description]" yalign 0.125 xalign 0.065
+                text "{size=25}Now Playing...{/size}" yalign 0.01 xalign 0.01
+                text "[song_name] - [song_description]" yalign 0.05 xalign 0.01
                 
             else:
                 text "No Music Playing" xalign 0.5 yalign 0.5
             ##below are the buttons and how we set them up to work with the music rooM! not sure if its correct or not, but it works and thats all i care about at this point
+            imagebutton auto "gui/mp_hide_%s.png":
+                xpos 455
+                ypos 3
+                at musicTrans
+                focus_mask True
+                action Function(renpy.hide_screen, "textmiddle")
+                
+
             imagebutton auto "gui/mm_pause_%s.png":
                 xpos 128
-                ypos 175 
+                ypos 85 
                 focus_mask True #focus mask makes it hoverable, its just image buttons like ud see on the  main menu of games!
                 action [SetVariable('current_track', renpy.music.get_playing()),
                         mr.TogglePause()]
@@ -101,13 +127,20 @@ screen textmiddle:
 
             imagebutton auto "gui/mp_play_%s.png":
                 xpos 216 
-                ypos 175 
+                ypos 85 
                 focus_mask True  
                 action [SetVariable('current_track', renpy.music.get_playing()),
                         mr.TogglePause()]
                 hovered [ Play("sound", "audio/click.wav") ]
             
-            imagebutton auto "gui/mp_skip_%s.png" xpos 309 ypos 175 focus_mask True action mr.Next() hovered [ Play("sound", "audio/click.wav") ]
+            imagebutton auto "gui/mp_skip_%s.png" xpos 309 ypos 85 focus_mask True action mr.Next() hovered [ Play("sound", "audio/click.wav") ]
+
+
+##########################
+#
+#     User Profile | Online 
+#
+##########################
 
 
 #displays the players username and online, trying to add the profile photo display here as well 
@@ -129,8 +162,39 @@ screen username:
 
 
 
+
 ##Custom choice menu for icon select
 
 
 
-##Add in custom group chat online list here
+init python:
+    h_hours = 0
+    m_minutes = 0
+    from datetime import datetime
+    def change_hour():
+        t = datetime.today()
+        globals() ["h_hours"] = t.hour
+        globals() ["m_minutes"] = t.minute
+        renpy.restart_interaction()
+
+screen clock:
+    fixed:
+        xpos 1815
+        ypos 1030
+        timer 0.30 action change_hour repeat True
+        text "{size=20}{color=#FFFFFF}[h_hours]:[m_minutes]{/color}{/size}"
+    fixed:
+        xpos 1800
+        ypos 1055
+        text "{size=20}{color=#FFFFFF}[day]{/color}{/size}"
+screen taskbar:
+    fixed:
+
+        imagebutton auto "gui/tb_gallery_%s.png" xpos 550 ypos 1027 focus_mask True action ShowMenu("album") hovered [ Play("sound", "audio/click.wav") ]
+        imagebutton auto "gui/tb_pref_%s.png" xpos 620 ypos 1027 focus_mask True action ShowMenu("preferences") hovered [ Play("sound", "audio/click.wav") ]
+        imagebutton auto "gui/tb_save_%s.png"  xpos 12 ypos 1027 focus_mask True action ShowMenu("save") hovered [ Play("sound", "audio/click.wav") ]
+        imagebutton auto "gui/tb_music_%s.png" xpos 690 ypos 1027 focus_mask True action Show("textmiddle") hovered [ Play("sound", "audio/click.wav") ]
+    #fixed:
+
+
+##Add in custom group chat online list here 

@@ -161,6 +161,7 @@ label color_choice:
 
 
 label story_start:
+    $ day = "30/06/23"
 
     "I still remember the day that I first met my group. Mom had given me her old work laptop because she had upgraded."
     
@@ -334,7 +335,11 @@ label story_start:
     scene austinc
     show screen username
     play sound "notif.ogg"
-        
+
+    
+    
+    show screen taskbar
+    show screen clock
     am "Hey, [name]!"
     am "Happy happy birthday!"
     am " {image=stickers/1.png}"
