@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/customscreens.rpy", line 82: expected 'comma or end of line' not found.
-    with dissolve
-    ^
+File "game/customscreens.rpy", line 196: the auto keyword argument was not given a value.
+    imagebutton auto:
+                    ^
 
 Ren'Py Version: Ren'Py 8.1.1.23060707
-Thu Dec 28 20:40:39 2023
+Thu Dec 28 20:55:42 2023

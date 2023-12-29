@@ -74,12 +74,14 @@ init python:
 #this is the actual part that makes the mp3 player show, however max had a stupid and was testing out how new screens worked and got too lazy to change it back to a normal name
 
 
-transform musicTrans:
+transform musicTrans: # custom transition for hiding and showing the  music player, slay
     on show:
-        alpha 0.0
-        ease 0.5 alpha 1.0
+    
+        alpha 0.0 zoom 0.0
+        ease 1.0 alpha 1.0 zoom 1.0
     on hide:
-        ease 0.5 alpha 0.0
+        
+        ease 1.0 alpha 0.0 zoom 0.0
     
 screen textmiddle:
     default music_is_playing = False #i know this seems contradictory but this is just the default states, plus i triggered music to start once we enter into game immediately
@@ -91,6 +93,7 @@ screen textmiddle:
         drag_raise True
         pos(1375,50)
         drag_offscreen (200, 200)
+        at musicTrans
 
         frame:
             background None
@@ -112,7 +115,6 @@ screen textmiddle:
             imagebutton auto "gui/mp_hide_%s.png":
                 xpos 455
                 ypos 3
-                at musicTrans
                 focus_mask True
                 action Function(renpy.hide_screen, "textmiddle")
                 
@@ -193,7 +195,11 @@ screen taskbar:
         imagebutton auto "gui/tb_gallery_%s.png" xpos 550 ypos 1027 focus_mask True action ShowMenu("album") hovered [ Play("sound", "audio/click.wav") ]
         imagebutton auto "gui/tb_pref_%s.png" xpos 620 ypos 1027 focus_mask True action ShowMenu("preferences") hovered [ Play("sound", "audio/click.wav") ]
         imagebutton auto "gui/tb_save_%s.png"  xpos 12 ypos 1027 focus_mask True action ShowMenu("save") hovered [ Play("sound", "audio/click.wav") ]
-        imagebutton auto "gui/tb_music_%s.png" xpos 690 ypos 1027 focus_mask True action Show("textmiddle") hovered [ Play("sound", "audio/click.wav") ]
+        imagebutton auto "gui/tb_music_%s.png":
+            xpos 690 ypos 1027 
+            at musicTrans 
+            focus_mask True 
+            action Show("textmiddle") hovered [ Play("sound", "audio/click.wav") ]
     #fixed:
 
 
