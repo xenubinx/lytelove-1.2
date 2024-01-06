@@ -203,4 +203,18 @@ screen taskbar:
     #fixed:
 
 
-##Add in custom group chat online list here 
+##########################
+#
+#     User Icon Choice
+#
+##########################
+#hep me
+
+
+
+
+
+
+
+
+#TODO: Add in custom group chat online list here 

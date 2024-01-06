@@ -13,7 +13,7 @@ define m = Character("Mom", color="#ffffff")
 #define um = Character("[username]", color=chosen_color, kind=nvl, icon = im.FactorScale("user.png", 0.7), callback=callbackcontinue)
 define um = Character("[username]", who_prefix="{color=[chosen_color]}",kind=nvl, who_suffix="{/color}", icon = Transform("[player_icon]", zoom=0.7))
 
-default player_icon = "images/user.png"
+default player_icon = "images/icons/user.png"
 
 ##regular li definining
 define a = Character("Austin", window_background="gui/textbox2.png")
@@ -350,11 +350,25 @@ label story_start:
     "ICON CHANGE PLACEHOLDER" #TODO MOVE THIS ONCE IT WORKS
     label icon_change:
                 menu:
-                    "one":
-                        $ player_icon = "images/user.png" 
-                    "two":
-                        $ player_icon = "images/user2.png"
-
+                    #"{image=images/icons/user.png}":
+                    "1":
+                        $ player_icon = "images/icons/user.png" 
+                    "2":
+                        $ player_icon = "images/icons/user2.png"
+                    "3":
+                        $ player_icon = "images/icons/user3.png"
+                    "4":
+                        $ player_icon = "images/icons/user4.png"
+                    "5":
+                        $ player_icon = "images/icons/user5.png"
+                    "6":
+                        $ player_icon = "images/icons/user6.png"
+                    "7":
+                        $ player_icon = "images/icons/user7.png"
+                    "8":
+                        $ player_icon = "images/icons/user8.png"
+                    "9":
+                        $ player_icon = "images/icons/user 9.png"
     am "OOH WHAT DID YOUG ET?"
 
     um "Mom gave me her old computer!"
