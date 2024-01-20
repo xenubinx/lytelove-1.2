@@ -11,15 +11,6 @@
 
 ##########################
 #
-#     task bar stuff below! 
-#
-##########################
-
-#task bar set up for quick menu buttons
-
-
-##########################
-#
 #   Music player set up
 #
 ##########################
@@ -164,8 +155,75 @@ screen username:
 
 
 
+####################################
+#
+#     Custom choice menu code
+#
+####################################
 
-##Custom choice menu for icon select
+
+screen choice(items, icon=False):
+
+    if icon:
+        style_prefix "choice_icon"
+        grid 3 3:
+            yalign 0.5
+            xalign 0.5
+            for i in items:
+                textbutton i.caption action i.action:
+                    hover_sound "audio/click.wav"
+
+    else:
+        style_prefix "choice"
+
+        vbox:
+            for i in items:
+                textbutton i.caption action i.action
+
+
+style choice_vbox is vbox
+style choice_button is button
+style choice_button_text is button_text
+
+style choice_vbox:
+    xalign 0.5
+    ypos 405
+    yanchor 0.5
+
+    spacing gui.choice_spacing
+
+style choice_button is default:
+    properties gui.button_properties("choice_button")
+    
+
+style choice_button_text is default:
+    properties gui.button_text_properties("choice_button")
+
+style choice_icon_vbox is vbox
+style choice_icon_button is button
+style choice_icon_button_text is button_text
+
+style choice_icon_vbox:
+    xalign 0.5
+    ypos 405
+    yanchor 0.5
+
+    spacing gui.choice_spacing
+
+style choice_icon_button is default:
+    properties gui.button_properties("choice_button")
+    xsize 150
+
+style choice_icon_button_text is default:
+    properties gui.button_text_properties("choice_button")
+
+
+##########################
+#
+#     task bar stuff below! 
+#
+##########################
+
 
 
 
@@ -201,16 +259,6 @@ screen taskbar:
             focus_mask True 
             action Show("textmiddle") hovered [ Play("sound", "audio/click.wav") ]
     #fixed:
-
-
-##########################
-#
-#     User Icon Choice
-#
-##########################
-#hep me
-
-
 
 
 

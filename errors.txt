@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/customscreens.rpy", line 196: the auto keyword argument was not given a value.
-    imagebutton auto:
-                    ^
+File "game/customscreens.rpy", line 197: style property width is not known.
+    width 500
+         ^
 
 Ren'Py Version: Ren'Py 8.1.1.23060707
-Thu Dec 28 20:55:42 2023
+Tue Jan 16 17:15:51 2024

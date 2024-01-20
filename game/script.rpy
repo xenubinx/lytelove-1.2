@@ -1,4 +1,18 @@
-    # The script of the game goes in this file.
+####################
+# ROFL:ROFL:ROFL:ROFL
+#         _^___
+# L    __/   [] \
+#LOL===__        \
+# L      \________]
+#         I   I
+#        --------/
+#########################
+
+
+#help me out of this hellhole, my god
+##stuck in a prison of my own cringe
+
+# The script of the game goes in this file.
 init python:
     def callbackcontinue(ctc, **kwargs):
         if ctc == "end":
@@ -138,11 +152,12 @@ label start:
             name = name.strip()
 
 
-    show pronouns
-    "Please select your pronouns:"
-    call pronounselection from _call_pronounselection
-
+    #show pronouns
+    #"Please select your pronouns:"
+    #call pronounselection from _call_pronounselection
+    jump test_one_pronoun_set
     "Would you like to change your  name color?"
+label after_pronouns:
 
 menu: 
     "Yes":
@@ -349,25 +364,25 @@ label story_start:
 
     "ICON CHANGE PLACEHOLDER" #TODO MOVE THIS ONCE IT WORKS
     label icon_change:
-                menu:
+                menu(icon=True):
                     #"{image=images/icons/user.png}":
-                    "1":
+                    "{image=images/icons/user.png}":
                         $ player_icon = "images/icons/user.png" 
-                    "2":
+                    "{image=images/icons/user2.png}":
                         $ player_icon = "images/icons/user2.png"
-                    "3":
+                    "{image=images/icons/user3.png}":
                         $ player_icon = "images/icons/user3.png"
-                    "4":
+                    "{image=images/icons/user4.png}":
                         $ player_icon = "images/icons/user4.png"
-                    "5":
+                    "{image=images/icons/user5.png}":
                         $ player_icon = "images/icons/user5.png"
-                    "6":
+                    "{image=images/icons/user6.png}":
                         $ player_icon = "images/icons/user6.png"
-                    "7":
+                    "{image=images/icons/user7.png}":
                         $ player_icon = "images/icons/user7.png"
-                    "8":
+                    "{image=images/icons/user8.png}":
                         $ player_icon = "images/icons/user8.png"
-                    "9":
+                    "{image=images/icons/user 9.png}":
                         $ player_icon = "images/icons/user 9.png"
     am "OOH WHAT DID YOUG ET?"
 

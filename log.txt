@@ -1,19 +1,19 @@
-Sat Jan  6 08:41:47 2024
+Tue Jan 16 17:37:37 2024
 Windows-10-10.0.19045
 Ren'Py 8.1.1.23060707
  
 
 Bootstrap to the start of init.init. took 0.04s
 Early init. took 0.00s
-Loader init. took 0.07s
-Loading error handling. took 0.05s
-Loading script. took 0.55s
-Loading save slot metadata. took 0.07s
+Loader init. took 0.05s
+Loading error handling. took 0.03s
+Loading script. took 0.74s
+Loading save slot metadata. took 0.05s
 Loading persistent. took 0.00s
-Running init code. took 0.10s
-Loading analysis data. took 0.03s
+Running init code. took 0.07s
+Loading analysis data. took 0.02s
 Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.13s
+Reloading save slot metadata. took 0.03s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Wampl\\AppData\\Roaming/RenPy/backups\\lytelove-1.2':
 Dump and make backups. took 0.07s
@@ -25,14 +25,14 @@ nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
 Creating interface object. took 0.24s
 Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.03s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.04s
 Running _start took 0.00s
 Performance test:
 Interface start. took 0.13s
@@ -47,342 +47,19 @@ Version: b'4.6.0 NVIDIA 536.99'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
 Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 197.93s
-Early init. took 0.00s
-Loader init. took 0.03s
-Loading error handling. took 0.04s
-Loading script. took 0.15s
-Loading save slot metadata. took 0.04s
-Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.02s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.04s
-Index archives took 0.00s
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
+Screen sizes: virtual=(1920, 1080) physical=(1600, 837) drawable=(1600, 837)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 950.95s
+Bootstrap to the start of init.init. took 1023.36s
 Early init. took 0.00s
 Loader init. took 0.04s
 Loading error handling. took 0.03s
 Loading script. took 0.44s
 Loading save slot metadata. took 0.04s
 Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.02s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Wampl\\AppData\\Roaming/RenPy/backups\\lytelove-1.2':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1033.01s
-Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.03s
-Loading script. took 0.45s
-Loading save slot metadata. took 0.04s
-Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Wampl\\AppData\\Roaming/RenPy/backups\\lytelove-1.2':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.23s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1401.14s
-Early init. took 0.00s
-Loader init. took 0.03s
-Loading error handling. took 0.02s
-Loading script. took 0.41s
-Loading save slot metadata. took 0.03s
-Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Wampl\\AppData\\Roaming/RenPy/backups\\lytelove-1.2':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.24s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1427.42s
-Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.03s
-Loading script. took 0.20s
-Loading save slot metadata. took 0.04s
-Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.02s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Wampl\\AppData\\Roaming/RenPy/backups\\lytelove-1.2':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.24s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1644.41s
-Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.02s
-Loading script. took 0.32s
-Loading save slot metadata. took 0.04s
-Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.02s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Wampl\\AppData\\Roaming/RenPy/backups\\lytelove-1.2':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.25s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 352, in script
-    menu:
-  File "C:\Users\Wampl\Documents\renpy-8.1.1-sdk\renpy\ast.py", line 1922, in execute
-    choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
-  File "C:\Users\Wampl\Documents\renpy-8.1.1-sdk\renpy\exports.py", line 1106, in menu
-    rv = renpy.store.menu(new_items)
-  File "C:\Users\Wampl\Documents\renpy-8.1.1-sdk\renpy\exports.py", line 1345, in display_menu
-    rv = renpy.ui.interact(mouse='menu', type=type, roll_forward=roll_forward)
-  File "C:\Users\Wampl\Documents\renpy-8.1.1-sdk\renpy\ui.py", line 299, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Wampl\Documents\renpy-8.1.1-sdk\renpy\display\core.py", line 3579, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\Wampl\Documents\renpy-8.1.1-sdk\renpy\display\core.py", line 4052, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "C:\Users\Wampl\Documents\renpy-8.1.1-sdk\renpy\display\core.py", line 681, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\Wampl\Documents\renpy-8.1.1-sdk\renpy\display\core.py", line 681, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\Wampl\Documents\renpy-8.1.1-sdk\renpy\display\core.py", line 681, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\Wampl\Documents\renpy-8.1.1-sdk\renpy\display\screen.py", line 476, in visit_all
-    callback(self)
-  File "C:\Users\Wampl\Documents\renpy-8.1.1-sdk\renpy\display\core.py", line 4052, in <lambda>
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "C:\Users\Wampl\Documents\renpy-8.1.1-sdk\renpy\display\screen.py", line 487, in per_interact
-    self.update()
-  File "C:\Users\Wampl\Documents\renpy-8.1.1-sdk\renpy\display\screen.py", line 680, in update
-    self.screen.function(**self.scope)
-  File "game/screens.rpy", line 209, in execute
-    screen choice(items):
-  File "game/screens.rpy", line 209, in execute
-    screen choice(items):
-  File "game/screens.rpy", line 213, in execute
-    grid 2 3:
-  File "C:\Users\Wampl\Documents\renpy-8.1.1-sdk\renpy\display\layout.py", line 550, in add
-    raise Exception("Grid overfull.")
-Exception: Grid overfull.
-
-While running game code:
-  File "game/script.rpy", line 352, in script
-    menu:
-  File "game/screens.rpy", line 209, in execute
-    screen choice(items):
-  File "game/screens.rpy", line 209, in execute
-    screen choice(items):
-  File "game/screens.rpy", line 213, in execute
-    grid 2 3:
-Exception: Grid overfull.
-Resetting cache.
-Bootstrap to the start of init.init. took 1654.03s
-Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.03s
-Loading script. took 0.29s
-Loading save slot metadata. took 0.04s
-Loading persistent. took 0.00s
 Running init code. took 0.03s
 Loading analysis data. took 0.02s
-Analyze and compile ATL. took 0.00s
+Analyze and compile ATL. took 0.01s
 Reloading save slot metadata. took 0.03s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Wampl\\AppData\\Roaming/RenPy/backups\\lytelove-1.2':
@@ -400,12 +77,12 @@ Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start. took 0.05s
+Interface start. took 0.06s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -415,420 +92,13 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 536.99'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Screen sizes: virtual=(1920, 1080) physical=(1600, 837) drawable=(1600, 837)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 1678.59s
-Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.02s
-Loading script. took 0.29s
-Loading save slot metadata. took 0.03s
-Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.01s
-Reloading save slot metadata. took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Wampl\\AppData\\Roaming/RenPy/backups\\lytelove-1.2':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Fullscreen mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 2278.29s
-Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.02s
-Loading script. took 0.23s
-Loading save slot metadata. took 0.04s
-Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.02s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Wampl\\AppData\\Roaming/RenPy/backups\\lytelove-1.2':
-Dump and make backups. took 0.07s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.10s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.23s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Fullscreen mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 2284.69s
-Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.02s
-Loading script. took 0.21s
-Loading save slot metadata. took 0.03s
-Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.02s
-Analyze and compile ATL. took 0.01s
-Reloading save slot metadata. took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Wampl\\AppData\\Roaming/RenPy/backups\\lytelove-1.2':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.23s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Fullscreen mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 2330.48s
+Bootstrap to the start of init.init. took 1070.66s
 Early init. took 0.00s
 Loader init. took 0.05s
 Loading error handling. took 0.02s
-Loading script. took 0.20s
-Loading save slot metadata. took 0.04s
-Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.02s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Wampl\\AppData\\Roaming/RenPy/backups\\lytelove-1.2':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Fullscreen mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 2377.86s
-Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.02s
-Loading script. took 0.34s
-Loading save slot metadata. took 0.04s
-Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.02s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Wampl\\AppData\\Roaming/RenPy/backups\\lytelove-1.2':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.24s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Fullscreen mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 2396.33s
-Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.02s
-Loading script. took 0.28s
-Loading save slot metadata. took 0.03s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.02s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Wampl\\AppData\\Roaming/RenPy/backups\\lytelove-1.2':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.24s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Fullscreen mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 2408.78s
-Early init. took 0.00s
-Loader init. took 0.03s
-Loading error handling. took 0.02s
-Loading script. took 0.29s
-Loading save slot metadata. took 0.03s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.02s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Wampl\\AppData\\Roaming/RenPy/backups\\lytelove-1.2':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.23s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Fullscreen mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 2439.44s
-Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.02s
-Loading script. took 0.32s
-Loading save slot metadata. took 0.04s
-Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.02s
-Analyze and compile ATL. took 0.01s
-Reloading save slot metadata. took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Wampl\\AppData\\Roaming/RenPy/backups\\lytelove-1.2':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.25s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Fullscreen mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 2502.00s
-Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.02s
-Loading script. took 0.24s
-Loading save slot metadata. took 0.04s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.02s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Wampl\\AppData\\Roaming/RenPy/backups\\lytelove-1.2':
-Dump and make backups. took 0.07s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Fullscreen mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 2515.98s
-Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.02s
 Loading script. took 0.21s
 Loading save slot metadata. took 0.04s
 Loading persistent. took 0.00s
@@ -838,89 +108,44 @@ Analyze and compile ATL. took 0.01s
 Reloading save slot metadata. took 0.03s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Wampl\\AppData\\Roaming/RenPy/backups\\lytelove-1.2':
-Dump and make backups. took 0.06s
+Dump and make backups. took 0.07s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
 Initial gc. took 0.06s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.24s
+Creating interface object. took 0.23s
 Cleaning stores took 0.00s
 Init translation took 0.06s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.02s
-Prepare screens took 0.07s
+Prepare screens took 0.09s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start. took 0.05s
+Interface start. took 0.08s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
-Fullscreen mode.
+Windowed mode.
 Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 536.99'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Screen sizes: virtual=(1920, 1080) physical=(1600, 837) drawable=(1600, 837)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 2522.38s
+Bootstrap to the start of init.init. took 1080.05s
 Early init. took 0.00s
 Loader init. took 0.04s
 Loading error handling. took 0.02s
-Loading script. took 0.22s
-Loading save slot metadata. took 0.03s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.02s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Wampl\\AppData\\Roaming/RenPy/backups\\lytelove-1.2':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.23s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Fullscreen mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 3171.00s
-Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.03s
-Loading script. took 0.45s
-Loading save slot metadata. took 0.03s
+Loading script. took 0.21s
+Loading save slot metadata. took 0.04s
 Loading persistent. took 0.00s
 Running init code. took 0.04s
 Loading analysis data. took 0.02s
@@ -935,72 +160,27 @@ Initial gc. took 0.05s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.24s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Fullscreen mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 3197.06s
-Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.02s
-Loading script. took 0.41s
-Loading save slot metadata. took 0.04s
-Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Wampl\\AppData\\Roaming/RenPy/backups\\lytelove-1.2':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.23s
+Creating interface object. took 0.25s
 Cleaning stores took 0.00s
 Init translation took 0.07s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.07s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
-Running _start took 0.01s
+Running _start took 0.00s
 Performance test:
-Interface start. took 0.05s
+Interface start. took 0.07s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
-Fullscreen mode.
+Windowed mode.
 Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 536.99'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Screen sizes: virtual=(1920, 1080) physical=(1600, 837) drawable=(1600, 837)
 Maximum texture size: 4096x4096
