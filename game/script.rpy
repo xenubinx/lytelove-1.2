@@ -57,13 +57,12 @@ image robinc = "UC Robin.png"
 image ziggyc = "UC Ziggy.png"
 image scamc = "UC Spam.png"
 
-image login = "Input Screen.png"
+image login = "InputScreen.png"
 image night = "bedroom night.png"
 image day = "bedroom.png"
 image login = "InputScreen.png"
 image kitchen = "kitchen.png"
 image passerror = "passworderror.png"
-image pronouns = "PronounSelectScreen.png"
 
 # group chats
 image gc1 = "GC one.png"
@@ -94,11 +93,6 @@ image CG_red = "CGs/PC.png"
 label start:
     
 
-    $ austinP = 0
-    $ jaidenP = 0
-    $ leilaniP = 0
-    $ elainaP = 0
-    $ ziggyP = 0
 
     
     $ mr.play()
